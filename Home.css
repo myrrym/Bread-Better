@@ -50,26 +50,6 @@ h2{
       margin:0 25px;
   }
 
-.left{
-    text-align: left;
-    top:0%;
-    left:0%;
-    right:90vh;
-}
-
-.center{
-    text-align: center;
-    top:0%;
-    left:42vh;
-    right:42vh;
-}
-
-.right{
-    text-align: right;
-    top:0%;
-    left:82vh;
-    right:0%;
-}
 
 .fix-it{
     position:fixed;
@@ -77,8 +57,14 @@ h2{
     background-color: rgb(180,230,222);
 }
 
-.relative-it{
-    position:relative;
+.center { 
+    position: fixed; 
+    left: 50%; 
+    margin-left: -100px; 
+} 
+
+.right{
+    float:right;
 }
 
 .menupics{
